@@ -1,2 +1,0 @@
-# lovemind
-Lovemind Website
