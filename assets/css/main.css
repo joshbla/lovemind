@@ -2094,12 +2094,13 @@ input, select, textarea {
 
 	#header-wrapper {
 		position: relative;
-		padding: 4em 0 2em 0;
-		background-image: url("images/hero.png");
+		background-image: url("images/your-image-name.png");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
+		background-color: #ffffff; /* Add a fallback color */
 	}
+
 	
 
 	.homepage #header-wrapper {
