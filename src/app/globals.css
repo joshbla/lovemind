@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Lovemind Raleway";
+  src: url("/fonts/raleway-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lovemind Raleway";
+  src: url("/fonts/raleway-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lovemind Raleway Black";
+  src: url("/fonts/raleway-black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@theme inline {
+  --color-brand-blue: #08aeef;
+  --color-brand-blue-dark: #087fb0;
+  --color-brand-ink: #1e1e1e;
+  --color-brand-orange: #e76422;
+  --font-sans: "Lovemind Raleway", Arial, sans-serif;
+  --font-brand: "Lovemind Raleway Black", "Lovemind Raleway", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #1e1e1e;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Lovemind Raleway", Arial, sans-serif;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #08aeef;
+  color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -57,8 +57,8 @@
     "https://jblakezsmith.wixsite.com/lovemind/sitemap.xml",
     "https://jblakezsmith.wixsite.com/lovemind/store-products-sitemap.xml"
   ],
-  "assetCount": 55,
-  "totalBytes": 119182917,
+  "assetCount": 59,
+  "totalBytes": 122175610,
   "assets": [
     {
       "sourceUrl": "https://static.wixstatic.com/media/990592_4c271ab669844ad193738df34d447ef7~mv2.jpg",
@@ -288,6 +288,25 @@
       "classification": "stock"
     },
     {
+      "sourceUrl": "https://static.wixstatic.com/media/990592_eaaa224905f5477b9488a9aecbf7e4dd~mv2.jpg",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/990592_eaaa224905f5477b9488a9aecbf7e4dd~mv2.jpg"
+      ],
+      "finalSourceUrl": "https://static.wixstatic.com/media/990592_eaaa224905f5477b9488a9aecbf7e4dd~mv2.jpg",
+      "localFilename": "27599d006e1a-990592_eaaa224905f5477b9488a9aecbf7e4dd~mv2.jpg",
+      "mimeType": "image/jpeg",
+      "dimensions": {
+        "width": 1280,
+        "height": 1024
+      },
+      "sha256": "27599d006e1a6f971c9ac7e763128958133af7a3ea02ca23d809c4a73cbc4238",
+      "byteSize": 251251,
+      "pagesUsages": [
+        "https://jblakezsmith.wixsite.com/lovemind"
+      ],
+      "classification": "brand-specific"
+    },
+    {
       "sourceUrl": "https://static.wixstatic.com/ufonts/990592_cb53f63d25c044cda640ea4f07dab8a5/woff/file.woff",
       "sourceUrls": [
         "https://static.wixstatic.com/ufonts/990592_cb53f63d25c044cda640ea4f07dab8a5/woff/file.woff"
@@ -369,6 +388,25 @@
         "https://jblakezsmith.wixsite.com/lovemind/undergraduate"
       ],
       "classification": "stock"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/990592_61778b5e356c4776906df8935f8d98f7~mv2.jpg",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/990592_61778b5e356c4776906df8935f8d98f7~mv2.jpg"
+      ],
+      "finalSourceUrl": "https://static.wixstatic.com/media/990592_61778b5e356c4776906df8935f8d98f7~mv2.jpg",
+      "localFilename": "3179e1335f82-990592_61778b5e356c4776906df8935f8d98f7~mv2.jpg",
+      "mimeType": "image/jpeg",
+      "dimensions": {
+        "width": 1466,
+        "height": 981
+      },
+      "sha256": "3179e1335f82c2b705ee72d6e574e790a2a28c616e6fadeadb542272bc999c7e",
+      "byteSize": 657503,
+      "pagesUsages": [
+        "https://jblakezsmith.wixsite.com/lovemind"
+      ],
+      "classification": "brand-specific"
     },
     {
       "sourceUrl": "https://static.wixstatic.com/media/11062b_4817a6cd5bac4c0693280ee8ebca1b86~mv2.jpg",
@@ -1444,6 +1482,25 @@
       "classification": "stock"
     },
     {
+      "sourceUrl": "https://static.wixstatic.com/media/990592_40e6fa75b01d443d9d18e08e9a8b381b~mv2.jpg",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/990592_40e6fa75b01d443d9d18e08e9a8b381b~mv2.jpg"
+      ],
+      "finalSourceUrl": "https://static.wixstatic.com/media/990592_40e6fa75b01d443d9d18e08e9a8b381b~mv2.jpg",
+      "localFilename": "d50ebb525a9a-990592_40e6fa75b01d443d9d18e08e9a8b381b~mv2.jpg",
+      "mimeType": "image/jpeg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1920
+      },
+      "sha256": "d50ebb525a9a1a337e3c5f288a87b64bdf0ac5210fb7ef35e861f44f3c05785b",
+      "byteSize": 683893,
+      "pagesUsages": [
+        "https://jblakezsmith.wixsite.com/lovemind"
+      ],
+      "classification": "brand-specific"
+    },
+    {
       "sourceUrl": "https://a9c280b1-3ffb-4849-a355-02562f948279.filesusr.com/ugd/990592_e76603aebe6747d5a73c7cd33b55a448.pdf",
       "sourceUrls": [
         "https://a9c280b1-3ffb-4849-a355-02562f948279.filesusr.com/ugd/990592_e76603aebe6747d5a73c7cd33b55a448.pdf"
@@ -1494,6 +1551,25 @@
       "byteSize": 5923236,
       "pagesUsages": [
         "https://jblakezsmith.wixsite.com/lovemind/alt-undergrad"
+      ],
+      "classification": "brand-specific"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/990592_d5d8ccee19c745f5833267c52d4bbc30~mv2.jpg",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/990592_d5d8ccee19c745f5833267c52d4bbc30~mv2.jpg"
+      ],
+      "finalSourceUrl": "https://static.wixstatic.com/media/990592_d5d8ccee19c745f5833267c52d4bbc30~mv2.jpg",
+      "localFilename": "e265611a26ae-990592_d5d8ccee19c745f5833267c52d4bbc30~mv2.jpg",
+      "mimeType": "image/jpeg",
+      "dimensions": {
+        "width": 3130,
+        "height": 1886
+      },
+      "sha256": "e265611a26aeef6d81f4a4d15f4de28744dbad8848c5912884b4e979dbb0c180",
+      "byteSize": 1400046,
+      "pagesUsages": [
+        "https://jblakezsmith.wixsite.com/lovemind"
       ],
       "classification": "brand-specific"
     },
