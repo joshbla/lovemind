@@ -37,7 +37,9 @@ Items here are intentionally outside the high-fidelity reconstruction.
 
 ## Hosting And Domain
 
-- In Wix DNS, replace the GitHub Pages web records with the Vercel records after the Vercel production site is approved. This is an owner action.
+- Configure the owner's personal Vercel project to deploy the application from `staging` rather than `main`.
+- After the Vercel production deployment is approved, update the small GitHub Pages redirect on `main` to point to the stable Vercel URL instead of Wix while retaining the `lovemind.net` CNAME.
+- Keep the current Wix DNS records pointing to GitHub Pages for now. Do not modify Wix DNS as part of this project.
 - Preserve all Google Workspace MX, SPF, DKIM, DMARC, and verification records during any DNS change.
 - Later evaluate transferring the domain registration away from Wix, potentially through Porkbun or directly to Cloudflare after Cloudflare DNS is active.
 - Treat any registrar or authoritative DNS migration as a separate project with a verified zone export and rollback plan.

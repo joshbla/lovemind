@@ -28,8 +28,10 @@ Do not silently correct typos, contradictions, broken destinations, stale inform
 - The production site must not load media or application resources from Wix.
 - Download and serve all current brand media needed by the reconstruction.
 - The discarded GitHub Pages prototype is historical only and is not a design source.
-- The application will use Next.js, TypeScript, and Tailwind CSS and deploy to the owner's personal Vercel account.
-- The owner will change Wix DNS later. This project must not modify Wix DNS.
+- The application will use Next.js, TypeScript, and Tailwind CSS and deploy from `staging` to the owner's personal Vercel account.
+- `main` remains a dedicated GitHub Pages branch containing the `lovemind.net` CNAME and a small redirect page. Do not fast-forward the application into `main`.
+- After the Vercel deployment is approved, update the redirect on `main` to point to the stable Vercel URL instead of Wix.
+- The owner will handle any Wix DNS or registrar changes later. This project must not modify Wix DNS.
 
 ## Agent Boundaries
 
