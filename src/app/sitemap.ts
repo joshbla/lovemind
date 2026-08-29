@@ -1,5 +1,56 @@
 import type { MetadataRoute } from "next";
 
+const paths = [
+  "/",
+  "/papers-and-studies/mystical-type-experiences-occasioned-by-psilocybin-mediate-the-attribution-of-personal-meaning-and-spiritual-significance-14-months-later",
+  "/about",
+  "/policies",
+  "/papers-and-studies/-effects-of-the-5-ht2a-agonist-psilocybin-on-mismatch-negativity-generation-and-ax-continuous-performance-task%3A-implications-for-the-neuropharmacology-of-cognitive-deficits-in-schizophrenia-",
+  "/services",
+  "/research",
+  "/terms",
+  "/privacy",
+  "/leadership",
+  "/contact",
+  "/service-page/undergraduate-tutoring",
+  "/service-page/trial-undergraduate-tutoring",
+  "/chinese",
+  "/tutoring",
+  "/in-development",
+  "/refunds-cancelations",
+  "/service-page/trial-high-school-tutoring",
+  "/papers-and-studies/individual-experiences-in-four-cancer-patients-following-psilocybin-assisted-psychotherapy",
+  "/undergraduate-tutor",
+  "/disclaimer",
+  "/jobs",
+  "/results-and-studies",
+  "/high-school",
+  "/copy-of-high-school-tutor",
+  "/alt-undergrad",
+  "/papers-and-studies/-renal-excretion-profiles-of-psilocin-following-oral-administration-of-psilocybin%3A-a-controlled-study-in-man-",
+  "/papers-and-studies/-pilot-study-of-psilocybin-treatment-for-anxiety-in-patients-with-advanced-stage-cancer-",
+  "/in-progress",
+  "/philosophy",
+  "/undergraduate",
+  "/service-page/chinese-tutoring",
+  "/papers-and-studies/-johns-hopkins-study-of-psilocybin-in-cancer-patients-",
+  "/product-page/lovemind-headband",
+  "/service-page/high-school-tutoring",
+  "/shares",
+  "/papers-and-studies/-safety%2C-tolerability%2C-and-efficacy-of-psilocybin-in-9-patients-with-obsessive-compulsive-disorder-",
+  "/session",
+  "/papers-and-studies/-acute-psychological-and-physiological-effects-of-psilocybin-in-healthy-humans%3A-a-double-blind%2C-placebo-controlled-dose-effect-study-",
+  "/high-school-tutor",
+  "/papers-and-studies/-psilocybin-with-psychological-support-for-treatment-resistant-depression%3A-an-open-label-feasibility-study-",
+  "/papers-and-studies/increased-activation-of-indirect-semantic-associations-under-psilocybin.",
+  "/plans",
+  "/shop",
+  "/papers-and-studies/response-of-cluster-headache-to-psilocybin-and-lsd-",
+  "/shipping",
+  "/service-page/trial-chinese-tutoring",
+  "/papers-and-studies/psilocybin-can-occasion-mystical-type-experiences-having-substantial-and-sustained-personal-meaning-and-spiritual-significance"
+] as const;
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [{ url: "https://lovemind.net" }];
+  return paths.map((path) => ({ url: new URL(path, "https://lovemind.net").toString() }));
 }
