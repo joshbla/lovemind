@@ -30,7 +30,7 @@ Do not silently correct typos, contradictions, broken destinations, stale inform
 - The discarded GitHub Pages prototype is historical only and is not a design source.
 - The application will use Next.js, TypeScript, and Tailwind CSS and deploy from `staging` to the owner's personal Vercel account.
 - `main` remains a dedicated GitHub Pages branch containing the `lovemind.net` CNAME and a small redirect page. Do not fast-forward the application into `main`.
-- After the Vercel deployment is approved, update the redirect on `main` to point to the stable Vercel URL instead of Wix.
+- The redirect on `main` points to the stable Vercel URL. Keep redirect updates isolated from the application and follow `docs/DEPLOYMENT.md`.
 - The owner will handle any Wix DNS or registrar changes later. This project must not modify Wix DNS.
 
 ## Agent Boundaries
